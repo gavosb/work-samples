@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=QuitListener
+comment0.text=\r\n\ QuitListener\ -\ listens\ for\ the\ quit\ event\r\n\r\n\ @author\ Gavin\ Osborn\ &\ Mary\ Lang\r\n\ @version\ 04.12.2021\r\n
+comment1.params=
+comment1.target=QuitListener()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ QuitListener\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ Exits\ the\ game\r\n\ @param\ e\ ActionEvent\ -\ automatically\ passed\r\n
+numComments=3

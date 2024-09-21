@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Block
+comment0.text=\r\n\ Block\ -\ a\ basic\ quilt\ block\ that\ takes\ a\ solid\ color\r\n\r\n\ @author\ Gavin\ Osborn\ &\ Mary\ Lang\r\n\ @version\ 04.16.2021\r\n
+comment1.params=sc\ type
+comment1.target=Block(java.awt.Color,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Block\r\n\ @param\ sc\ Color\ to\ set\ as\ default\ background\r\n\ @param\ rng\ Random\ class\ to\ be\ passed\r\n\ @param\ type\ String\ for\ what\ kind\ of\ Block\ it\ is\r\n
+comment10.params=c
+comment10.target=void\ setCopy(boolean)
+comment10.text=\r\n\ Sets\ the\ state\ of\ the\ copy\ variable\ to\ the\ provided\ boolean\r\n\ @param\ c\ boolean\r\n
+comment11.params=s
+comment11.target=void\ setSeed(int)
+comment11.text=\r\n\ Sets\ the\ seed\ of\ rng\r\n\ @param\ s\ int\ s\ -\ the\ seed\ to\ be\ set\r\n
+comment2.params=block
+comment2.target=Block(Block)
+comment2.text=\r\n\ Constructor\ that\ creates\ a\ new\ copy\ of\ the\ passed\ Block\ (not\ a\ reference)\r\n\ In\ order\ to\ copy\ randomized\ things,\ their\ randomness\ must\ be\ selected\ in\ the\ constructor\ or\ field,\ not\ paint.\r\n
+comment3.params=count\ x\ y\ g
+comment3.target=void\ drawTriangle(int,\ int[],\ int[],\ java.awt.Graphics)
+comment3.text=\r\n\ Draws\ a\ recursive\ sierpinski\ Triangle\ given\ the\ initial\ points\ for\ a\ polygon\r\n\ @param\ count\ int\ -\ initial\ setting\ determines\ how\ many\ times\ the\ method\ is\ called\ recursively\r\n\ @param\ x\ int[]\ -\ the\ list\ of\ x\ values\r\n\ @param\ y\ int[]\ -\ the\ list\ of\ y\ values\r\n\ @param\ g\ Graphics\ -\ provided\ by\ paintComponent's\ graphics\r\n
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment4.text=\r\n\ Overrides\ paintComponent;\r\n\ Draws\ lines\ and\ pattern\ specific\ graphical\ changes\r\n\ @param\ g\ Graphics\ -\ implicitly\ provided\ by\ Swing\r\n
+comment5.params=line
+comment5.target=void\ setLine(java.lang.String)
+comment5.text=\r\n\ Sets\ the\ lines\ to\ be\ drawn\ on\ the\ sides\ of\ the\ Block\r\n\ @param\ line\ String\ for\ line\ to\ be\ drawn\r\n\ rl\ \=\ right\ line\r\n\ ll\ \=\ left\ line\r\n\ tl\ \=\ top\ line\r\n\ bl\ \=\ bottom\ line\r\n
+comment6.params=
+comment6.target=void\ enlargeFrame()
+comment6.text=\r\n\ Creates\ a\ separate\ JFrame\ with\ a\ version\ of\ the\ Block\ within\ it\r\n\ Called\ by\ the\ Inspect\ tool\ within\ PatternListener\r\n
+comment7.params=sc
+comment7.target=void\ setColor(java.awt.Color)
+comment7.text=\r\n\ Sets\ the\ background\ color\ of\ the\ Block\r\n\ @param\ sc\ Color\ to\ change\ to\r\n
+comment8.params=n
+comment8.target=void\ setNumber(int)
+comment8.text=\r\n\ Sets\ the\ number\ of\ the\ Block\ and\ changes\ to\ the\ appropriate\ background\ Color\r\n\ @param\ n\ Int\ to\ set\ as\ the\ new\ number\r\n
+comment9.params=
+comment9.target=int\ getNumber()
+comment9.text=\r\n\ Gets\ the\ 2048\ number\ of\ the\ Block\r\n\ @return\ int\ number\r\n
+numComments=12

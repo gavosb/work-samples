@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Maze
+comment0.text=\r\n\ A\ maze\ full\ of\ Rooms\ as\ cells\r\n\r\n\ @author\ Gavin\ Osborn\ &\ Mary\ Lang\r\n\ @version\ 03.10.2021\r\n
+comment1.params=Size\ c
+comment1.target=Maze(int,\ javax.swing.JPanel)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Maze\r\n\ @param\ \ size\ the\ size\ of\ the\ maze,\ eg\ 50\ for\ a\ 50x50\ maze\r\n\ @param\ c\ JPanel\ to\ add\ Blocks\ to\r\n
+comment2.params=
+comment2.target=void\ createPaths()
+comment2.text=\r\n\ Carves\ out\ a\ maze\ path\ using\ a\ binary\ tree\ algorithm\r\n
+comment3.params=
+comment3.target=void\ generateMaze()
+comment3.text=\r\n\ Generates\ a\ maze\ full\ of\ Room\ objects\r\n\r\n
+comment4.params=
+comment4.target=Block[][]\ getMaze()
+comment4.text=\r\n\ Gets\ the\ maze,\ which\ is\ a\ 2D\ array\ of\ Blocks\r\n\ @return\ Array[][]\ a\ 2D\ array\ of\ Blocks\r\n
+comment5.params=x\ y
+comment5.target=Block\ getBlock(int,\ int)
+comment5.text=\r\n\ Gets\ a\ Block\ from\ the\ maze\r\n\ @param\ x\ x-axis\ of\ Block\r\n\ @param\ y\ y-axis\ of\ Block\r\n\ @return\ Block\r\n
+numComments=6

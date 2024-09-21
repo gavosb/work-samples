@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GameListener
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameListener\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=GameListener()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameListener\r\n
+comment2.params=e
+comment2.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment2.text=\r\n\ implicitly\ called\ by\ the\ listener\ whenever\ a\ key\ is\ pressed\ while\ the\ appropriate\ component\ is\ selected\r\n\ @param\ e\ KeyEvent\r\n
+comment3.params=e
+comment3.target=void\ keyTyped(java.awt.event.KeyEvent)
+comment3.text=\r\n\ Placeholders\ to\ satisfy\ KeyListener\r\n
+comment4.params=e
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+numComments=5

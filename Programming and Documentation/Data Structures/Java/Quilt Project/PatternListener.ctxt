@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PatternListener
+comment0.text=\r\n\ PatternListener\ -\ listens\ for\ the\ quit\ event\r\n\r\n\ @author\ Gavin\ Osborn\ &\ Mary\ Lang\r\n\ @version\ 04.12.2021\r\n
+comment1.params=
+comment1.target=PatternListener()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PatternListener\r\n
+comment2.params=f
+comment2.target=void\ setFrame(javax.swing.JFrame)
+comment2.text=\r\n\ Sets\ the\ frame\ to\ be\ used\ for\ actions\r\n\ @param\ f\ JFrame\ to\ be\ passed\r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\r\n\ Displays\ patterns\ when\ the\ appropriate\ button\ has\ been\ pressed\r\n\ @param\ e\ ActionEvent\ -\ automatically\ passed\r\n
+numComments=4
